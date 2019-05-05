@@ -1,0 +1,15 @@
+######## ext: matapl ######
+######## Gil Miranda ######
+### Arquivo de banco de dados de matrizes em formato ficticio .matapl
+### Cada matriz é salva em uma linha, que é iniciada por um identificador unico U = e terminada por ;
+### Os primeiros dois parametros são o tamanho da matrix m x n e finalizados por :
+### A matriz é então digitada por linha, seguindo a ordem de colunas e terminada por :
+### Exemplo: para salvar a matriz A 3x4
+###
+###       3  2  1.5  4
+###  A =  5  8  10   9
+###       8  7  5    0
+###
+###  A = 3,4:3,2,1.5,4:5,8,10,9:8,7,5,0;
+###  Id = m,n:a11,a12,...a1n:a21,...,a2n:...:am1,...amn;
+##########enjoy##########
